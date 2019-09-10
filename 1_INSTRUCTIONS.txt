@@ -1,0 +1,9 @@
+*** Client/System Admin Instructions ***
+NOTE: This script should be first verified and run in a development or QA environment before it is run in production. There is a remaining risk that the server's performance, availability and/or data may be affected by the script.
+
+1. Login to the system as a domain administrator
+2. Unzip the files provided by the auditor to a folder. Ensure you have all utility files in the same structure as provided.
+3. Obtain the most current version of wsusscn2.cab from http://go.microsoft.com/fwlink/?LinkId=76054 or use provided link (2_Download_Update_CAB_wsusscn2_from_Microsoft)
+4. Run the script 3_windows_audit.cmd with admin privileges (may require righ click -> run as Administrator)
+5. The data output will be stored in a zip file within c:\hba_audit
+6. Return the zip file to the audit Professional. 
